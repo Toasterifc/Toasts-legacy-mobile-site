@@ -1,0 +1,46 @@
+body {
+ background-color: aquamarine;
+ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ padding: 0x;
+ margin: 0x;
+}
+.ios {
+  
+    content: url(toios.png);
+    width: 200px;
+   
+}
+
+p{
+    background-color: lightblue;
+    border-radius: 20px;
+    padding: 30px;
+    text-align: center;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+header{
+    text-align: center;
+}
+img{ 
+    align-items: center;
+    padding-left: 300px;
+}
+h2{ 
+    text-align: center;
+}
+
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+    float: left;
+    width: 50%;
+    padding: 5px;
+
+  }
+  
+  /* Clear floats after image containers */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
